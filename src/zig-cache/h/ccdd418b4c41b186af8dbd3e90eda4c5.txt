@@ -1,1 +1,0 @@
-56944 1407374884276739 1631172555752215400 d01f2b3a7fbdb7b6ee42d2cd6f6829ec C:\dev\zig\lib\libc\mingw\lib-common\ntdll.def.in

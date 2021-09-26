@@ -111,6 +111,3 @@ test "An aside, packed structs are so cool" {
     try testing.expectEqual(2, @sizeOf(Point));
     try testing.expectEqual(@as(usize, 200), std.mem.sliceAsBytes(&a).len);
 }
-pub fn main() !void {
-    std.log.info("All your codebase are belong to us.", .{});
-}
