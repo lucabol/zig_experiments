@@ -43,3 +43,10 @@ pub fn main() !void {
     var stack_allocator = std.heap.stackFallback(4096, fallback_allocator);
     try testLeakDetection(&stack_allocator.allocator, true); // it depends on the fallback allocator
 }
+
+test {
+    _ = @import("mem_bugs.zig");
+    _ = @import("mem_raw.zig");
+    _ = @import("comptime.zig");
+    _ = @import("opaque.zig");
+}
